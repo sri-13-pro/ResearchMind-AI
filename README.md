@@ -186,67 +186,12 @@ Automatically exports
 
 ---
 
-# 📂 Project Structure
-
-```text
-ResearchMind-AI/
-│
-├── main.py
-│
-├── data/
-│   └── cleaned_papers.csv
-│
-├── uploads/
-│   ├── attention_is_all_you_need.pdf
-│   └── ...
-│
-├── reports/
-│   ├── Research_Report.pdf
-│   ├── wordcloud.png
-│   ├── frequency_chart.png
-│   ├── statistics.csv
-│   ├── keywords.csv
-│   └── analysis.json
-│
-├── vector_db/
-│   └── paper.index
-│
-├── models/
-│
-├── notebooks/
-│   ├── 01_Data_Preparation.ipynb
-│   ├── 02_PDF_Processing.ipynb
-│   ├── 03_Semantic_Search.ipynb
-│   ├── 04_Research_Assistant.ipynb
-│   └── 05_Final_Demo.ipynb
-│
-├── utils/
-│   ├── __init__.py
-│   ├── analytics.py
-│   ├── banner.py
-│   ├── citation.py
-│   ├── loading.py
-│   ├── pdf_utils.py
-│   ├── preprocessing.py
-│   ├── report_generator.py
-│   ├── semantic_search.py
-│   └── summarizer.py
-│
-├── assets/
-│
-├── requirements.txt
-├── README.md
-└── LICENSE
-```
-
----
-
 # ⚙️ Installation
 
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/ResearchMind-AI.git
+git clone https://github.com/sri-13-pro/ResearchMind-AI.git
 ```
 
 Navigate into the project
@@ -480,9 +425,9 @@ git push origin feature-name
 
 ### Connect with me
 
-- 🌐 GitHub: https://github.com/<your-github-username>
-- 💼 LinkedIn: https://www.linkedin.com/in/<your-linkedin-profile>
-- 📧 Email: <your-email>
+- 🌐 GitHub: https://github.com/sri-13-pro
+- 💼 LinkedIn: https://www.linkedin.com/in/srinath-rajasekar-r-10b52b339
+- 📧 Email: srinathr466@gmail.com
 
 ---
 
@@ -490,6 +435,6 @@ git push origin feature-name
 
 ## ⭐ If you found this project useful, consider giving it a Star!
 
-**Made with ❤️ using Python, NLP, FAISS, Sentence Transformers, and AI**
+**Made with using Python, NLP, FAISS, Sentence Transformers, and AI**
 
 </div>
