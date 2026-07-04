@@ -6,14 +6,12 @@ ResearchMind AI
 """
 
 import os
-import pickle
-import numpy as np
 import faiss
 
 from sentence_transformers import SentenceTransformer
 
 
-def semantic_search():
+class SemanticSearch:
 
     def __init__(self):
 
@@ -60,7 +58,7 @@ def semantic_search():
     def search(self, query, top_k=5):
 
         if self.index is None:
-            raise Exception("Index has not been created.")
+            raise Exception("Vector index has not been created.")
 
         query_embedding = self.model.encode(
             [query],
@@ -85,7 +83,7 @@ def semantic_search():
             os.path.join(folder, "paper.index")
         )
 
-        print("Vector Index Saved!")
+        print("✔ Vector Index Saved!")
 
     # -----------------------------------------------------
 
@@ -97,9 +95,8 @@ def semantic_search():
 
             self.index = faiss.read_index(path)
 
-            print("Vector Index Loaded!")
+            print("✔ Vector Index Loaded!")
 
             return True
 
         return False
-    
