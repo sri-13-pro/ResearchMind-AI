@@ -1,0 +1,41 @@
+# Core Libraries
+numpy==2.3.1
+pandas==2.3.1
+matplotlib==3.10.3
+
+# NLP
+nltk==3.9.1
+yake==0.6.0
+sumy==0.11.0
+
+# Deep Learning & Transformers
+torch==2.7.1
+transformers==4.53.2
+sentence-transformers==5.0.0
+
+# Vector Database
+faiss-cpu==1.11.0.post1
+
+# Dataset
+datasets==4.0.0
+
+# PDF Processing
+PyMuPDF==1.26.3
+
+# Machine Learning
+scikit-learn==1.7.0
+
+# Visualization
+wordcloud==1.9.4
+
+# Utilities
+tqdm==4.67.1
+
+# Jupyter
+jupyter==1.1.1
+notebook==7.4.4
+ipykernel==6.30.0
+ipywidgets==8.1.7
+
+# Web App (Optional)
+streamlit==1.47.1
